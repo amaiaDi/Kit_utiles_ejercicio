@@ -1,6 +1,8 @@
 from kit_utiles.cli import main, _format_number
 import sys
 
+#TODO: añadir más tests de CLI si es necesario
+#INFO - TExto para provocar error
 def test_cli_sin_argumentos(capsys):
     main(["prog"])
     assert capsys.readouterr().out.strip() == "0"
