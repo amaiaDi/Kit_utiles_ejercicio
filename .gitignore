@@ -1,0 +1,55 @@
+# === Python general ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compilados C/C++ o extensiones
+*.so
+*.pyd
+*.dll
+
+# === Entornos virtuales ===
+.venv/
+venv/
+venvKitUtiles/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Configuración de entornos ===
+.env
+.envrc
+.conda/
+.pdm-python
+.pdm-build/
+
+# === Paquetes y distribución ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Pruebas y cobertura ===
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+tests/__pycache
+

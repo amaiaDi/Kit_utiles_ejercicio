@@ -1,0 +1,25 @@
+# === Dependencias principales ===
+pandas
+numpy
+
+# === Pruebas y cobertura ===
+pytest>=8.0
+pytest-cov
+coverage
+
+# === Entornos interactivos (para notebooks y demostraciones) ===
+jupyter
+jupyterlab
+ipykernel
+
+# === Estilo y formato de código ===
+black
+isort
+flake8
+
+# === Variables de entorno y hooks ===
+python-dotenv
+pre-commit
+
+# === Otros (compatibilidad y utilidades) ===
+gitpython
